@@ -1,0 +1,13 @@
+module CGMPLinux [system] {
+  header "/usr/include/gmp.h"
+  link "gmp"
+  export *
+}
+
+module CGMPDarwin [system] {
+  header "/usr/local/include/gmp.h"
+  link "gmp"
+  export *
+}
+
+
